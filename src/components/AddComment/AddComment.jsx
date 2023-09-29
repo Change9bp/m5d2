@@ -14,9 +14,6 @@ const AddComment = ({ bookId }) => {
     setFormData({ ...formData, [name]: value, elementId: bookId });
     console.log("form data", formData);
   }
-  /* Object.keys(*** ottengo un array di chiavi dell'oggetto*** formData).forEach(
-    (obj) =>{ if(formData[obj] === null){  canIPost = false; break}})*/
-  //Object.value; // ottengo i valori delle chiavi in un array
 
   async function handleInputSubmit(e) {
     e.preventDefault();
@@ -136,7 +133,7 @@ const AddComment = ({ bookId }) => {
             value="1"
             onClick={(e) => handleInputChange(e)}
           />
-          <label for="star1" title="Molto scarso">
+          <label htmlFor="star1" title="Molto scarso">
             1 stella
           </label>
         </div>

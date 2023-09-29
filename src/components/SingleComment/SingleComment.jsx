@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "react-bootstrap";
 import { PostProvider } from "../../contexts/reactContext";
+import { nanoid } from "nanoid";
 
 const SingleComment = ({ oneComment }) => {
   const [inEditing, setInEditing] = useState(false);
@@ -18,6 +19,7 @@ const SingleComment = ({ oneComment }) => {
     for (let index = 0; index < singleCommEdit.rate; index++) {
       arrStar.push(
         <FontAwesomeIcon
+          key={nanoid()}
           icon={faStar}
           size="sm"
           style={{ color: "rgb(225 225 75)" }}
