@@ -1,0 +1,15 @@
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.borderRed {
+  border: 5px solid red;
+}
+
+#bookDetails a {
+  color: white;
+  text-decoration: none;
+}

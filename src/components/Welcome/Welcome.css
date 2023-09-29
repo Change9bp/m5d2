@@ -1,0 +1,16 @@
+#jumbo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  padding: 30px;
+  background-image: url("https://i0.wp.com/www.zoomagazine.it/wp-content/uploads/2022/03/VITTORIO-SGARBI.jpeg?fit=960%2C960&ssl=1");
+  /*background-image: url("https://wips.plug.it/cips/notizie.virgilio.it/cms/2019/11/sgarbi.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbo * {
+  color: white;
+}

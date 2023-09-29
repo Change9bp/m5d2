@@ -1,0 +1,12 @@
+#bDetails {
+  display: flex;
+  justify-content: center;
+}
+
+#detailsLeft {
+  width: 50%;
+}
+
+#detailsRigth {
+  width: 50%;
+}
